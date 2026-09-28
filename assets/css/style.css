@@ -68,10 +68,6 @@ video{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 6vw;
-  /* margin-top: 0vw;
-  margin-bottom: 4vw;
-  margin-left: 4vw;
-  margin-right: 4vw;*/
   background-color: #2f2f2d;
 }
 
