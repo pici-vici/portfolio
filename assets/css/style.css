@@ -67,7 +67,7 @@ video{
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 6vw;it
+  margin: 6vw;
   background-color: #2f2f2d;
 }
 
