@@ -4,6 +4,11 @@
 }
 
 @font-face {
-  font-family: 'Literata';
-  src: url('../fonts/LiterataTT-TextRegular.woff');
+  font-family: 'LiterataReg';
+  src: url('../fonts/LiterataLAT-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'LiterataDis';
+  src: url('../fonts/LiterataLATDisplay-Regular.woff2');
 }
