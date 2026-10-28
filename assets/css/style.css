@@ -132,6 +132,8 @@ video{
 
 @media (max-width: 440px) {
   .title {
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-column: span 4;
   }
 }
