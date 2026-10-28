@@ -1,3 +1,8 @@
+:root {
+  --font-size: 24px;
+  --font-size-heading: calc(var(--font-size) * 3);
+}
+
 body {
   background-color: #ee3f00;
   overflow-x: hidden;
@@ -23,11 +28,12 @@ h2 {
   font-family: 'LiterataDis';
   margin: 2vw;
   padding: 0vw;
-  border: 0vw;  
-  /*font-size: 5vw;*/
+  border: 0vw;
+  font-size: var(--font-size-heading);
   color:rgb(255, 255, 255);
   line-height: 0.8;
   text-align: left;
+  hyphens: auto;
 }
 
 
@@ -35,7 +41,7 @@ p,
 a {
   font-family: 'LiterataReg';
   margin: 2vw 2vw 0 2vw;
-  /*font-size: 2vw;*/
+  font-size: var(--font-size);
   color:rgb(255, 255, 255);
   text-align: left;
   line-height: 1.3;
@@ -111,7 +117,6 @@ video{
 .four {
   grid-column: span 4;
 }
-
 
 
 @media (max-width: 299px) { :root{--font-size: 14px;} html, body {font: var(--font-size) var(--font-text); } }
