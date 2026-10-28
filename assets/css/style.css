@@ -107,7 +107,9 @@ video{
   background-color: #aa0600;
 }
 
-
+.title {
+  grid-column: span 2;
+}
 .two {
   grid-column: span 2;
 }
@@ -128,12 +130,8 @@ video{
 @media (min-width: 1201px) and (max-width: 1320px) { :root{--font-size: 22px;} html, body {font: var(--font-size) var(--font-text); } }
 @media (min-width: 1321px) { :root{--font-size: 24px;} html, body {font: var(--font-size) var(--font-text); } }
 
-
-
 @media (max-width: 440px) {
-
   .title {
     grid-column: span 4;
   }
-  
 }
